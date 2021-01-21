@@ -8,7 +8,7 @@ class Lab1Test {
 	
 	@Test
 	public void getIDTest() {
-		System.out.println(Lab.getMyID());
+		assertEquals("214285514",Lab.getMyID());
 	}
 	
 	@Test
